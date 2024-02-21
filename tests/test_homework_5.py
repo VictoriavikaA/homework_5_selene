@@ -39,6 +39,6 @@ def test_fill_out_practice_form():
     browser.element(".table").should(have.text("26 November,1993"))
     browser.element(".table").should(have.text("Accounting"))
     browser.element(".table").should(have.text("Reading"))
+    browser.element(".table").should(have.text("image_1.jpeg"))
     browser.element(".table").should(have.text("USA"))
     browser.element(".table").should(have.text("NCR Delhi"))
-    browser.element(".table").should(have.text("image_1.jpeg"))
